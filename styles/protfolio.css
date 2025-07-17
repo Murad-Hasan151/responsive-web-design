@@ -295,27 +295,46 @@ footer textarea{
     .skill-container, 
     .resume-container,
     footer, 
+    .banner,
+    nav,
+    nav ul,
     .about-items{
         flex-direction: column;
     }
+    nav ul{
+        gap: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner {
+        margin: 10px;
+    }
+    .banner img {
+        width: 100%;
+    }
     .resume-column{
-        padding: 20px;
+        padding: 10px;
     }
     .resume hr{
-        width: 500px;
+        width: 380px;
     }
     footer input[type=text], 
     footer input[type=email], 
     footer textarea{
-        width: 400px;
+        width: 260px;
     }
     .footer-description {
-        width: 400px;
+        width: 350px;
     }
     footer {
-        padding: 20px;
+        padding: 10px;
     }
     .about {
-        padding: 20px;
+        padding: 10px;
+    }
+    .btn {
+        margin-left: 0;
+        margin-top: 10px;
     }
 }
