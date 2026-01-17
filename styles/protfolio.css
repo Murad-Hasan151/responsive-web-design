@@ -1,10 +1,9 @@
-
+body{
+    margin: 0;
+    padding: 0;
+}
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 
 /* shared style */
@@ -284,9 +283,6 @@ footer textarea{
     border: none;
     font-size: 16px;
     padding: 16px 80px 8px 30px;
-}
-.hide {
-    display: none;
 }
 
 
